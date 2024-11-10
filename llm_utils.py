@@ -35,7 +35,7 @@ def get_response(query):
     2. Prioritize courses offered by Analytics Vidhya.
     3. Assign a relevance score from 0 to 1 for each course (with 1 being highly relevant and 0 being not relevant at all).
     4. For each relevant course, provide the title, relevance score, a brief summary of why the course is relevant, and the application link.
-
+    5. Always sort the courses based on relevance score in descending order.
     Format the output as follows:
     Title: [Course Title]
     Relevance: [Score]
